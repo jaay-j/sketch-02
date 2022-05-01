@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Second Sketch</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="javascript/p5.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <script src="javascript/sketch-02.js"></script>
+
+    <h1>Sketch 2</h1>
+    <p> What I made with p5 -- Day 2! </p>
+    <br><br>
+    <img src="img/sketch-02 (1).png">
+
+    <div id="container">
+
+    <h3> var width = 1000; <br>
+    var height = 1000; <br><br>
+
+    function setup() { <br>
+    createCanvas(1000, 1000); <br>
+    background(18, 87, 20); <br>
+    angleMode(DEGREES); <br><br>
+
+    var i = 0; <br>
+    while (i < 1000) { <br>
+        noFill(); <br>
+        stroke(0); <br>
+        strokeWeight(3); <br>
+        rect(100 * i, 98 * i, 8, 200); <br>
+        i = i + 0.3; <br>
+    } <br><br>
+
+    var i = 0; <br>
+    while (i < 1000) { <br>
+        noFill(); <br>
+        stroke(0); <br>
+        strokeWeight(3); <br>
+        rect (0 * i, 110 * i, 200, 8); <br>
+        i = i + 0.3; <br>
+    } <br><br>
+
+    var i = 0; <br>
+    while (i < 1000) { <br>
+        translate (800, 0); <br>
+        noFill(0); <br>
+        stroke(0); <br>
+        strokeWeight(3); <br>
+        rect(0 * i, 0 * i, 200, 1000); <br>
+        i = i + 0.3; <br>
+    } <br>
+} <br>
+
+        </div>
+
+
+        <a href="https://jaay-j.github.io/sketch_main" style="font-size:30px; margin:40%; color: rgb(145, 35, 189);"> BACK TO MENU </a> 
+
+        </body>
+        </html>
